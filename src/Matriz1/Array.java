@@ -12,13 +12,13 @@ public class Array {
 		int soma =0, x;
 		Scanner ler = new Scanner(System.in);
 		
-		 for (x=0;x<=5; x++) {
+		 for (x=0;x<5; x++) {
 			 System.out.println("Digite um numero ");
 			 vet[x]=ler.nextInt();
 			 soma+=vet[x];
-		 }
 		 
-		 for (x=0;x<=5; x++) 
+		 }
+		 for (x=0;x<5; x++) 
 		 {
 			 System.out.println(vet[x]+"\t");
 		 }
