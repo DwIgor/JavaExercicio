@@ -8,7 +8,8 @@ public class MAviao {
 	Aviao a1 = new Aviao();
 		
 		
-	
+	    a1.cor="Azul";
+	    a1.empresa="Latam";
 		a1.status();
 		
 
